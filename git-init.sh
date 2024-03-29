@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ $# -eq 0 ]; then
-    echo "No arguments provided. Script will terminate."
+    echo "No arguments provided. Exiting..."
     exit 1
 fi
 gh repo create $1 --private
